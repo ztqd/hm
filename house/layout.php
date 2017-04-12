@@ -88,6 +88,7 @@
 											</li>
 										</ul>
 									</li>
+
 									<li class="">
 										<a href="#" class="dropdown-toggle">
 											<i class="menu-icon fa fa-caret-right"></i>
@@ -124,6 +125,116 @@
 		
 											<li class="">
 												<a href="export_record.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													导出记录
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="nav nav-list">
+							<li class="active  open">
+								
+								<a href='land_manage.php' class="dropdown-toggle">
+									<i class="menu-icon fa 	fa-briefcase "></i>
+									<span class="menu-text"> 
+										土地管理
+									</span>
+		
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+		
+								<b class="arrow"></b>
+		
+								<ul class="submenu">
+									<li class="">
+										<a href='land_manage.php' class="dropdown-toggle">
+											<i class="menu-icon fa fa-caret-right"></i>
+		
+											自有土地管理
+											<b class="arrow fa fa-angle-down"></b>
+										</a>
+		
+										<b class="arrow"></b>
+
+										<ul class="submenu">
+										<li class="">
+												<a href='land_manage.php'>
+													<i class="menu-icon fa fa-caret-right"></i>
+											土地管理
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+											<li class="">
+												<a href='add_land.php'>
+													<i class="menu-icon fa fa-caret-right"></i>
+													添加自有土地
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+		
+											<li class="">
+												<a href="inport_land.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													导入自有土地
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+		
+											<li class="">
+												<a href="export_land.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													导出自有土地
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+										</ul>
+									</li>
+									<li class="">
+										<a href="record_manage.php" class="dropdown-toggle">
+											<i class="menu-icon fa fa-caret-right"></i>
+		
+											使用记录管理
+											<b class="arrow fa fa-angle-down"></b>
+										</a>
+		
+										<b class="arrow"></b>
+		
+										<ul class="submenu">
+										<li class="">
+												<a href="record_manage_land.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													记录管理
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+											<li class="">
+												<a href="add_record_land.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													添加记录
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+		
+											<li class="">
+												<a href="inport_record_land.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													导入记录
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+		
+											<li class="">
+												<a href="export_record_land.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													导出记录
 												</a>
