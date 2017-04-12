@@ -43,7 +43,10 @@ include("layout.php");
                         <ul class="breadcrumb">
                             <li class="active">
                                 <i class="ace-icon fa fa-home home-icon"></i>
-                                <a href="#">Home</a>
+                                <a href="index.php">Home</a>
+                            </li>
+                            <li>
+                            <a href="record_manage.php">使用记录管理</a>
                             </li>
                         </ul>
                     </div>
@@ -155,8 +158,8 @@ include("layout.php");
                         "targets": 0
                         } ],
                     "sScrollX": "100%",   //表格的宽度
-                    "sScrollXInner": "110%",   //表格的内容宽度
-                    "lengthMenu": [[2, 4, 6, -1], [2, 4, 6, "All"]],
+                    "sScrollXInner": "115%",   //表格的内容宽度
+                    "lengthMenu": [[5, 10, 20, -1], [5, 10, 20, "All"]],
                      "bAutoWidth": false,  //自适应宽度
                      language:lang,  //提示信息
                      renderer: "bootstrap",  
@@ -175,7 +178,13 @@ include("layout.php");
                         {"data":"deed_image"},
                         {"data":"land_deed_image"},
                         { "data": "deal" }
-                    ]
+                    ],
+                     "fnInitComplete": function(oSettings, json) {
+                        drawlink();
+                     },
+                      "fnDrawCallback": function( oSettings ) {
+                        drawlink();
+                     }
                 } );
                 $('#records tbody').on( 'click', '.delete', function () {
                     table.row( $(this).parents('tr') ).remove().draw();
@@ -185,6 +194,11 @@ include("layout.php");
                         cell.innerHTML = i+1;
                     } );
                 } ).draw();
+                 function drawlink(){
+                    $('#records tbody>tr').find('td:gt(7):not(:last)').html("<a href='upload.php'>上传</a>");
+                       
+                         $('#records tbody>tr').find('td:last').html("<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"); 
+                 }
             })
         </script>
     </body>

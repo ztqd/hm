@@ -43,7 +43,10 @@ include("layout.php");
                         <ul class="breadcrumb">
                             <li class="active">
                                 <i class="ace-icon fa fa-home home-icon"></i>
-                                <a href="#">Home</a>
+                                <a href="index.php">首页</a>
+                            </li>
+                            <li>
+                            <a href="record_manage.php">自有房产管理</a>
                             </li>
                         </ul>
                     </div>
@@ -73,6 +76,7 @@ include("layout.php");
                                         <th>是否小区</th>
                                         <th>备注</th>
                                         <th>操作</th>
+
                                     </tr>
                                 </thead>
                             </table>
@@ -160,14 +164,15 @@ include("layout.php");
                         "targets": 0
                         } ],
                     "sScrollX": "100%",   //表格的宽度
-                    "sScrollXInner": "110%",   //表格的内容宽度
-                    "lengthMenu": [[2, 4, 6, -1], [2, 4, 6, "All"]],
+                    "sScrollXInner": "200%",   //表格的内容宽度
+                    "lengthMenu": [[5, 10, 20, -1], [5, 10, 20, "All"]],
                      "bAutoWidth": false,  //自适应宽度
                      language:lang,  //提示信息
                      renderer: "bootstrap",  
                      "ajax": "datas/houses.json",
                      "order": [[1, 'asc']],
                      "columns": [
+                        { "data": "id" },
                         { "data": "name" },
                         { "data": "deed_num" },
                         { "data":"land_deed_num"},
@@ -176,15 +181,21 @@ include("layout.php");
                         { "data": "origin" },
                         { "data": "using" },
                         { "data":"present_user"},
-                        { "data":"structure"},
+                        { "data":"construction"},
                         { "data":"floor"},
-                        { "data": "start" },
-                        { "data": "end" },
-                        { "data": "tip" },
+                        { "data": "area" },
+                        { "data": "build" },
+                        { "data": "tag" },
                         { "data": "subdistrict" },
                         { "data":"info"},
                         { "data":"deal"}
-                    ]
+                    ],
+                    "fnInitComplete": function(oSettings, json) {
+                       $('#houses tbody>tr').find(':last-child').html("<a href='edit_house.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>")
+                     },
+                      "fnDrawCallback": function( oSettings ) {
+                       $('#houses tbody>tr').find(':last-child').html("<a href='edit_house.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>")
+                     }
                 } );
                 $('#houses tbody').on( 'click', '.delete', function () {
                     table1.row( $(this).parents('tr') ).remove().draw();

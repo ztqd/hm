@@ -42,15 +42,15 @@ include("layout.php");
 						<ul class="breadcrumb">
 							<li class="">
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="index.php">首页</a>
+								<a href="#">首页</a>
 							</li>
 							<li>
-							<a href="">房屋管理</a>
+							<a href="#">房屋管理</a>
 							</li>
 							<li>
-							<a href="record_manage.php">使用记录管理</a>
+							<a href="house_manage.php">自有房产管理</a>
 							</li>
-							<li class="active">导入记录</li>
+							<li class="active">导出自有房产</li>
 						</ul>
 					</div>
 					<div class="page-content">
@@ -71,37 +71,91 @@ include("layout.php");
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 使用者</span>
+										<span class="lbl bigger-120"> 房产证号</span>
 										</label>
 									</div>
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 联系方式</span>
+										<span class="lbl bigger-120">土地证号</span>
 										</label>
 									</div>
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 使用形式</span>
+										<span class="lbl bigger-120"> 分县区</span>
 										</label>
 									</div>
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 用地</span>
+										<span class="lbl bigger-120">详细地址</span>
 										</label>
 									</div>
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 签订时间</span协议>
+										<span class="lbl bigger-120"> 房产来源</span协议>
 										</label>
 									</div>
 									<div class="checkbox">
 										<label class="block">
 										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 协议到期时间</span>
+										<span class="lbl bigger-120"> 房产用途</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 现时使用者</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 结构</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 层数</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 层数</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 建筑面积</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 建成日期</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 资产标签号</span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 是否小区</span>
+										</label>
+									</div>
+										<div class="checkbox">
+										<label class="block">
+										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
+										<span class="lbl bigger-120"> 备注</span>
 										</label>
 									</div>
 									<div class="clearfix form-actions">

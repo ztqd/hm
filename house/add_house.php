@@ -43,13 +43,13 @@ include("layout.php");
 						<ul class="breadcrumb">
 							<li class="">
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">首页</a>
+								<a href="index.php">首页</a>
 							</li>
 							<li>
-							<a href="#">房屋管理</a>
+							<a href="">房屋管理</a>
 							</li>
 							<li>
-							<a href="#">自有房产管理</a>
+							<a href="record_manage.php">自有房产管理</a>
 							</li>
 							<li class="active">添加房产</li>
 						</ul>

@@ -49,7 +49,7 @@ include("layout.php");
 							<a href="#">房屋管理</a>
 							</li>
 							<li>
-							<a href="#">自有房产管理</a>
+							<a href="house_manage.php">自有房产管理</a>
 							</li>
 							<li class="active">添加房产</li>
 						</ul>

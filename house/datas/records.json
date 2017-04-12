@@ -10,10 +10,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+      "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "2",
@@ -24,151 +24,12 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
-        {
-      "id": "3",
-      "name": "cystem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "4",
-      "name": "dystem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "5",
-      "name": "fstem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011/07/12",
-      "end":"2018/02/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "6",
-      "name": "gystem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-        {
-      "id": "7",
-      "name": "hystem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "8",
-      "name": "estem Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "9",
-      "name": "System Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "10",
-      "name": "System Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "11",
-      "name": "System Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
-    {
-      "id": "12",
-      "name": "System Architect",
-      "user": "$320,800",
-      "tel": "2011\/04\/25",
-      "type": "Edinburgh",
-      "areas": "5421",
-      "start":"2011\/07\/12",
-      "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
-    },
+ 
         {
       "id": "13",
       "name": "System Architect",
@@ -178,10 +39,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "14",
@@ -192,10 +53,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "15",
@@ -206,10 +67,10 @@
       "areas": "5421",
       "start":"2011/07/12",
       "end":"2018/02/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "16",
@@ -220,10 +81,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
         {
       "id": "17",
@@ -235,9 +96,10 @@
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
       "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "18",
@@ -248,10 +110,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+       "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "19",
@@ -262,10 +124,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+      "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     },
     {
       "id": "20",
@@ -276,10 +138,10 @@
       "areas": "5421",
       "start":"2011\/07\/12",
       "end":"2018\/02\/14",
-      "house_image":"<a href='upload.php'>上传</a>",
-      "deed_image":"<a href='upload.php'>上传</a>",
-      "land_deed_image":"<a href='upload.php'>上传</a>",
-      "deal":"<a href='edit_record.php'>编辑</a>|<a href='javascript:;' class='delete'>删除</a>"
+      "house_image":"",
+      "deed_image":"",
+      "land_deed_image":"",
+      "deal":""
     }
   ]
 }

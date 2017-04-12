@@ -2,7 +2,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>导出记录</title>
+		<title>图片上传</title>
 		<!-- bootstrap & fontawesome -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/font-awesome/4.2.0/css/font-awesome.min.css" />
@@ -43,13 +43,13 @@ include("layout.php");
 						<ul class="breadcrumb">
 							<li class="">
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">首页</a>
+								<a href="index.php">首页</a>
 							</li>
 							<li>
-							<a href="#">房屋管理</a>
+							<a href="">房屋管理</a>
 							</li>
 							<li>
-							<a href="#">使用记录管理</a>
+							<a href="record_manage.php">使用记录管理</a>
 							</li>
 							<li class="active">上传房屋图片</li>
 						</ul>

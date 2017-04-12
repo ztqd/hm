@@ -14,7 +14,7 @@
 					</a>
 				</div>
 				<div class="navbar-header pull-right">
-					<span class="user-info"style="line-height: 45px;height:45px">username |<a href="">退出</a></span>
+					<span style="line-height: 45px;height:45px;margin-right:10px;font-size:14px;color:#fff">username |<a href="login.php" style="color:#fff">退出</a></span>
 				</div>
 			</div><!-- /.navbar-container -->
 		</div>
@@ -29,7 +29,7 @@
 				</script>
 					<ul class="nav nav-list">
 							<li class="active  open">
-								<a href="#" class="dropdown-toggle">
+								<a href="javascript:;" class="dropdown-toggle">
 									<i class="menu-icon fa 	fa-briefcase "></i>
 									<span class="menu-text"> 
 										房屋管理
@@ -53,7 +53,15 @@
 
 										<ul class="submenu">
 											<li class="">
-												<a href="addlist.php">
+												<a href="house_manage.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													自有房产管理
+												</a>
+		
+												<b class="arrow"></b>
+											</li>
+											<li class="">
+												<a href="add_house.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													添加自有房产
 												</a>
@@ -62,7 +70,7 @@
 											</li>
 		
 											<li class="">
-												<a href="two-menu-1.html">
+												<a href="inport_house.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													导入自有房产
 												</a>
@@ -71,7 +79,7 @@
 											</li>
 		
 											<li class="">
-												<a href="two-menu-2.html">
+												<a href="export_house.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													导出自有房产
 												</a>
@@ -92,7 +100,12 @@
 		
 										<ul class="submenu">
 											<li class="">
-												<a href="addlist.php">
+												<a href="record_manage.php">
+													<i class="menu-icon fa fa-caret-right"></i>
+													使用记录管理
+												</a>
+											<li class="">
+												<a href="add_record.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													添加记录
 												</a>
@@ -101,7 +114,7 @@
 											</li>
 		
 											<li class="">
-												<a href="two-menu-1.html">
+												<a href="inport_record.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													导入记录
 												</a>
@@ -110,7 +123,7 @@
 											</li>
 		
 											<li class="">
-												<a href="two-menu-2.html">
+												<a href="export_record.php">
 													<i class="menu-icon fa fa-caret-right"></i>
 													导出记录
 												</a>
@@ -121,7 +134,7 @@
 									</li>
 								</ul>
 								<li class="">
-								<a href="#" class="dropdown-toggle">
+								<a href="javascript:;" class="dropdown-toggle">
 									<i class="menu-icon fa fa-desktop"></i>
 									<span class="menu-text">
 										账号管理
@@ -134,7 +147,7 @@
 		
 								<ul class="submenu">
 									<li class="">
-										<a href="">
+										<a href="javascript:;">
 											<i class="menu-icon fa fa-caret-right"></i>
 											账号管理
 										</a>
@@ -142,7 +155,7 @@
 										<b class="arrow"></b>
 									</li>
 									<li class="">
-										<a href="">
+										<a href="javascript:;">
 											<i class="menu-icon fa fa-caret-right"></i>
 											添加账号
 										</a>
@@ -150,7 +163,7 @@
 										<b class="arrow"></b>
 									</li>
 									<li class="">
-										<a href="">
+										<a href="javascript:;">
 											<i class="menu-icon fa fa-caret-right"></i>
 											导入账号
 										</a>

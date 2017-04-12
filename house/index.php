@@ -95,6 +95,13 @@ include("layout.php");
 		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
+		<script type="text/javascript"> 
+			$(function(){
+				$('.nav-list>li').click(function(){
+					$(this).addClass('active').siblings().removeClass('active')
+				})
+			})
+		</script>
 	</body>
 </html>
 

@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/font-awesome/4.2.0/css/font-awesome.min.css" />
 
 		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="assets/css/dropzone.min.css" />
 
 		<!-- text fonts -->
 		<link rel="stylesheet" href="assets/fonts/fonts.googleapis.com.css" />
@@ -42,81 +43,43 @@ include("layout.php");
 						<ul class="breadcrumb">
 							<li class="">
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">首页</a>
+								<a href="index.php">首页</a>
 							</li>
 							<li>
 							<a href="#">房屋管理</a>
 							</li>
 							<li>
-							<a href="#">使用记录管理</a>
+							<a href="record_manage.php">使用记录管理</a>
 							</li>
 							<li class="active">导入记录</li>
 						</ul>
 					</div>
 					<div class="page-content">
 						<div class="page-header">
-							<h1>请选择导出选项</h1>
+							<h1>导入记录</h1>
 						</div>
 						
 						<div class="row">
 							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<form class="form-horizontal" role="form">
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 建筑物名称</span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 使用者</span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 联系方式</span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 使用形式</span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 用地</span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 签订时间</span协议>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label class="block">
-										<input class="ace input-lg" name="form-field-checkbox" type="checkbox">
-										<span class="lbl bigger-120"> 协议到期时间</span>
-										</label>
-									</div>
-									<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
-											<i class="ace-icon fa fa-check bigger-110"></i>
-											提交
-											</button>
-											<button class="btn" type="reset">
-											<i class="ace-icon fa fa-undo bigger-110"></i>
-											重置
-											</button>
+								<div>
+									<form class="form-horizontal" role="form">
+										<div class="form-group">
+											<div class="col-xs-12">
+												<input type="file" id="id-input-file-2" />
+											</div>
 										</div>
-									</div>
-								</form>
+										<div class="form-actions center">
+											
+												<button class="btn btn-info " type="button">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												提交
+												</button>
+											
+										</div>
+									</form>
+								</div><!-- PAGE CONTENT ENDS -->
+
+								
 							</div>
 						</div>
 					</div>
@@ -157,12 +120,33 @@ include("footer.php");
 		<script src="assets/js/bootstrap.min.js"></script>
 
 		<!-- page specific plugin scripts -->
+		<script src="assets/js/dropzone.min.js"></script>
 
 		<!-- ace scripts -->
 		<script src="assets/js/ace-elements.min.js"></script>
 		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			$(function(){
+				$('#id-input-file-2').ace_file_input({
+					no_file:'No File ...',
+					btn_choose:'Choose',
+					btn_change:'Change',
+					droppable:false,
+					onchange:null,
+					thumbnail:false //| true | large
+					//whitelist:'gif|png|jpg|jpeg'
+					//blacklist:'exe|php'
+					//onchange:''
+					//
+				});
+
+			})
+			  
+			   
+
+		</script>
 	</body>
 </html>
 
